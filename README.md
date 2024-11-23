@@ -132,7 +132,7 @@ This project automates the process of scraping, storing, and visualizing bus rou
    - The dynamic content is loaded using explicit waits and `time.sleep()`, which may not work under all network conditions.
 
 3. **Scraping Limitations**: 
-   - Currently, the scraper only extracts data from the first five pages of bus routes, though this can be extended.
+   - Currently, the scraper only extracts data from the available pages of bus routes, though this can be extended.
 
 4. **Local Database Setup**:
    - The script is configured to work with a local MySQL database. For remote databases, the connection parameters will need to be updated.
